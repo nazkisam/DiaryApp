@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DiaryApp.Data
 {
-    public class applicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public applicationDbContext(DbContextOptions<applicationDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 

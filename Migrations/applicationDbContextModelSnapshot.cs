@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DiaryApp.Migrations
 {
-    [DbContext(typeof(applicationDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class applicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

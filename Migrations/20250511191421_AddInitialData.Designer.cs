@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DiaryApp.Migrations
 {
-    [DbContext(typeof(applicationDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250511191421_AddInitialData")]
     partial class AddInitialData
     {
