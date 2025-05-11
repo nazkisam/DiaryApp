@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PLCPP\\.NET\\ASP.NET 9 MVC Tutorial for Beginners - C# web development made easy #coding #csharp #aspnetcore\\asp.netProject\\DiaryApp\\DiaryApp.csproj": {}
+    "D:\\PLCPP\\.NET\\DiaryApp\\asp.netProject\\DiaryApp\\DiaryApp.csproj": {}
   },
   "projects": {
-    "D:\\PLCPP\\.NET\\ASP.NET 9 MVC Tutorial for Beginners - C# web development made easy #coding #csharp #aspnetcore\\asp.netProject\\DiaryApp\\DiaryApp.csproj": {
+    "D:\\PLCPP\\.NET\\DiaryApp\\asp.netProject\\DiaryApp\\DiaryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PLCPP\\.NET\\ASP.NET 9 MVC Tutorial for Beginners - C# web development made easy #coding #csharp #aspnetcore\\asp.netProject\\DiaryApp\\DiaryApp.csproj",
+        "projectUniqueName": "D:\\PLCPP\\.NET\\DiaryApp\\asp.netProject\\DiaryApp\\DiaryApp.csproj",
         "projectName": "DiaryApp",
-        "projectPath": "D:\\PLCPP\\.NET\\ASP.NET 9 MVC Tutorial for Beginners - C# web development made easy #coding #csharp #aspnetcore\\asp.netProject\\DiaryApp\\DiaryApp.csproj",
+        "projectPath": "D:\\PLCPP\\.NET\\DiaryApp\\asp.netProject\\DiaryApp\\DiaryApp.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\PLCPP\\.NET\\ASP.NET 9 MVC Tutorial for Beginners - C# web development made easy #coding #csharp #aspnetcore\\asp.netProject\\DiaryApp\\obj\\",
+        "outputPath": "D:\\PLCPP\\.NET\\DiaryApp\\asp.netProject\\DiaryApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
