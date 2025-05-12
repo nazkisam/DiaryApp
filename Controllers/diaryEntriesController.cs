@@ -28,4 +28,9 @@ List<DiaryEntry> objDiaryEntryList = _db.diaryEntries.ToList();
   return View(objDiaryEntryList);
 }
 
+public IActionResult Create(){
+  return View();
+}
+
+
   }
