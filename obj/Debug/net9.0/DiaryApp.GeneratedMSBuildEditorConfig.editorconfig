@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGlhcnlFbnRyaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PLCPP/.NET/DiaryApp/asp.netProject/DiaryApp/Views/diaryEntries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGlhcnlFbnRyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PLCPP/.NET/DiaryApp/asp.netProject/DiaryApp/Views/diaryEntries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGlhcnlFbnRyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PLCPP/.NET/DiaryApp/asp.netProject/DiaryApp/Views/diaryEntries/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGlhcnlFbnRyaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

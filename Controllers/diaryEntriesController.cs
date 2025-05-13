@@ -52,5 +52,69 @@ public IActionResult Create(){
 
  
   }
+public IActionResult Edit(int? Id)
+{
+
+  if(Id == null || Id == 0){
+    return NotFound();
+  }
+
+  DiaryEntry?  diaryEntry = _db.diaryEntries.Find(Id) ;
+  if(diaryEntry == null){
+   return NotFound();
+  }
+return View(diaryEntry);
+}
+
+[HttpPost] 
+  public IActionResult Edit(DiaryEntry Obj){
+    
+    if(Obj != null && Obj.Title.Length<3){
+      ModelState.AddModelError("Title", "Title too short");
+    }
+
+    if(ModelState.IsValid){
+
+    _db.diaryEntries.Update(Obj);
+    _db.SaveChanges();
+
+   return RedirectToAction("Index");
+    }
+
+    return View(Obj);
+
+  }
+
+
+
+public IActionResult Delete(int? Id)
+{
+
+  if(Id == null || Id == 0){
+    return NotFound();
+  }
+
+  DiaryEntry?  diaryEntry = _db.diaryEntries.Find(Id) ;
+  if(diaryEntry == null){
+   return NotFound();
+  }
+return View(diaryEntry);
+
+}
+[HttpPost] 
+  public IActionResult Delete(DiaryEntry Obj){
+    
   
+
+    
+    _db.diaryEntries.Remove(Obj);
+    _db.SaveChanges();
+
+   return RedirectToAction("Index");
+
+  }
+
+
+
+
   }
