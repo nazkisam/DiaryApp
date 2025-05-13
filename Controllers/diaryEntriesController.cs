@@ -29,8 +29,17 @@ List<DiaryEntry> objDiaryEntryList = _db.diaryEntries.ToList();
 }
 
 public IActionResult Create(){
-  return View();
+  return View(); 
+
+
 }
+[HttpPost] 
+  public IActionResult Create(DiaryEntry Obj){
+ _db.diaryEntries.Add(Obj);
+ _db.SaveChanges();
 
+   return RedirectToAction("Index");
 
+  }
+  
   }
