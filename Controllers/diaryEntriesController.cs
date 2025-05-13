@@ -35,11 +35,22 @@ public IActionResult Create(){
 }
 [HttpPost] 
   public IActionResult Create(DiaryEntry Obj){
- _db.diaryEntries.Add(Obj);
- _db.SaveChanges();
+    
+    if(Obj != null && Obj.Title.Length<3){
+      ModelState.AddModelError("Title", "Title too short");
+    }
+
+    if(ModelState.IsValid){
+
+    _db.diaryEntries.Add(Obj);
+    _db.SaveChanges();
 
    return RedirectToAction("Index");
+    }
 
+    return View(Obj);
+
+ 
   }
   
   }
